@@ -1,26 +1,26 @@
-# **`Nombre del Proyecto`**
+# **`HBX`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- `Dante De Badts`  
 
-## **`Objetivo`**
+## **`Control para juegos de carreras`**
 
-`Breve descripción del propósito del proyecto. Completar una vez definido el proyecto.`
+`
+`Un freno de mano compatible con juegos de carreras de autos.`
 
-## **`Descripción del Proyecto`**
+## **`Palanca de cambios o freno de mano`**
 
-`Explicar en qué consiste y qué se busca lograr. Completar una vez definido el proyecto.`
+`Consiste en una palanca formada por un arduino micro pro y sensores que tomen la posicion de la palanca para recrear la accion de accionar un freno de mano de un auto de carreras`
 
 ## **`Componentes`**
 
-- `Componente 1`  
-- `Componente 2`  
-- `Componente 3`
+- `Controlador arduino con el chip ATmega32u4 (Que tenga la capacidad de emular un control)`  
+- `Sensor potenciometro que detecte la posision de la palanca`  
+- `Palanca de metal y estructura`
 
 `Completar una vez definido el proyecto.`
 
