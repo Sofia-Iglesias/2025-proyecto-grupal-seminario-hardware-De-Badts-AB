@@ -1,1 +1,36 @@
+#define suma1 2
+#define resta1 3 
+int i = 0; //aca declaro el contador
+  
+void setup()
+{
+  pinMode(suma1, INPUT_PULLUP);
+  pinMode(resta1, INPUT_PULLUP);
+  Serial.begin(9600);
+}
 
+void loop() {
+  
+   if (digitalRead(suma1) == LOW) {
+    if (i < 5) {
+      i++;
+      Serial.println(i);
+    } else {
+      Serial.println("Limite maximo alcanzado");
+    }
+    delay(50); //le puse delay de 50 milisegundos porque asi es en los autos de carreras
+  }
+  
+  
+  if (digitalRead(resta1) == LOW) {
+    if (i > -1) {
+      i--;
+      Serial.println(i);
+    } else {
+      Serial.println("Limite minimo alcanzado");
+    }
+    delay(50);
+  }
+  
+  
+}
